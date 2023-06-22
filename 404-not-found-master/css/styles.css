@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Montserrat:wght@500&family=Space+Mono:wght@400;700&display=swap');
+:root {
+    --primario: #4F4F4F;
+    --primarioOscuro: #333333;
+    --primarioClaro: #BDBDBD;
+    --blanco: #fff;
+
+    --fuentePrincipal: 'Inconsolata', monospace;
+    --fuenteSecundaria: 'Space Mono', monospace;
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box; /*Hack para Box Model*/
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/**Globales**/
+body {
+    font-size: 1.6rem; /* 1 rem = 10px*/
+    font-family: var(--fuenteSecundaria);
+    color: var(--primarioOscuro);
+    line-height: 1.5;
+    border-radius: 0.8rem;
+    box-shadow: 0px 2px 24px 0px rgba(0, 0, 0, 0.10);;
+}
+
+a { text-decoration: none; }
+img { max-width: 100%;}
+.no-margin{ margin: 0; }
+
+.header{
+    padding: 2rem 0 0 2.4rem;
+}
+.header h1 {
+    font-family: var(--fuentePrincipal);
+    font-size: 2.4rem;
+    text-transform: uppercase;
+    letter-spacing: -0.19rem;
+}
+@media (min-width: 1024px) {
+    .header{
+        padding: 4rem 0 0 7.7rem;
+    }
+}
+.contenido-404{
+    margin-top:6.4rem ;
+    padding: 0 1.25rem;
+}
+@media (min-width: 1024px) {
+    .contenido-404{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 11.8rem;
+        margin-top: 20rem;
+        padding: 0 7.7rem;
+    }
+}
+.contenido-404__texto h2 {
+    font-size: 4.8rem;
+    letter-spacing: -0.168rem;
+}
+@media (min-width: 1024px) {
+    .contenido-404__texto h2 {
+        font-size: 6.4rem;
+        letter-spacing: -0.224rem;
+    }
+}
+.contenido-404__texto p {
+    font-size: 1.8rem;
+    color: var(--primario);
+    letter-spacing: -0.063rem;
+    padding-top: 3rem;
+}
+@media (min-width: 1024px) {
+    .contenido-404__texto p {
+    font-size: 2.4rem;
+    color: var(--primario);
+    letter-spacing: -0.084rem;
+    padding: 3.6rem 24.6rem 0 0;
+}
+}
+.boton{
+    font-weight: 700;
+    color: var(--blanco);
+    text-align: center;
+    text-transform: uppercase;
+    background-color: var(--primarioOscuro);
+    display: inline-block;
+    padding: 2.4rem 4.3rem;
+    margin-top: 6.4rem;
+    font-size: 1.4rem;
+    border: none;
+}
+.footer p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.4rem;
+    color: var(--primarioClaro);
+    text-align: center;
+    padding-top: 11.4rem;
+}
+@media (min-width: 1024px) {
+    .footer p{
+        padding-top: 30.8rem;
+    }
+}
