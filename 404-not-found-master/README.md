@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://{404notfound-nine.vercel.app/}">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://{github.com/Ernesto-Gregori/devChalleges/tree/main/404-not-found-master}">
       Solution
     </a>
     <span> | </span>
@@ -36,7 +36,9 @@
 
 ## Overview
 
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
+![screenshot](https://github.com/Ernesto-Gregori/devChallenges/blob/0647823678e61b0709a4bfe22f5984c1ef394b3b/404-not-found-master/img/laptop-version.jpg)
+![screenshot](https://github.com/Ernesto-Gregori/devChallenges/blob/0647823678e61b0709a4bfe22f5984c1ef394b3b/404-not-found-master/img/cellphone-version.jpg)
+
 
 You can find the demo of the project hosted at Vercel (https://vercel.com/), this project personally helped me to resume web development, since I had left it on pause for work reasons; I was able to notice that I remember certain HTML and CSS elements
 
