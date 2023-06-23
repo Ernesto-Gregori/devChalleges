@@ -1,6 +1,6 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">{404 not found page}</h1>
+<h1 align="center">404 not found page</h1>
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://{404notfound-nine.vercel.app}">
+    <a href="https://404notfound-nine.vercel.app/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{github.com/Ernesto-Gregori/devChallenges/tree/main/404-not-found-master}">
+    <a href="https://devchallenges.io/solutions/fylBMBMYGVdG1oDn68Yu">
       Solution
     </a>
     <span> | </span>
